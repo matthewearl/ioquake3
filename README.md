@@ -4,6 +4,8 @@
 
 A rough and ready tool for visualizing overbounces in Quake 3.
 [See my video for an example of it in action.](https://www.youtube.com/watch?v=WmO2cdTU7EM&t=322s)
+Note that I made this work just well enough to make the above video, don't
+expect production quality!
 
 It is fairly resource intensive at the moment because I'm using the same routine
 that draws player shadows and bullet marks in order to clip the shader to the
