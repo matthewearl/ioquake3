@@ -755,6 +755,8 @@ typedef struct {
 	qhandle_t	burnMarkShader;
 	qhandle_t	holeMarkShader;
 	qhandle_t	energyMarkShader;
+	qhandle_t	obMarkerShader;
+	qhandle_t	obMarkerStickyShader;
 
 	// powerup shaders
 	qhandle_t	quadShader;
@@ -1177,6 +1179,7 @@ extern	vmCvar_t		cg_oldRail;
 extern	vmCvar_t		cg_oldRocket;
 extern	vmCvar_t		cg_oldPlasma;
 extern	vmCvar_t		cg_trueLightning;
+extern	vmCvar_t		cg_overbounce_hud;
 #ifdef MISSIONPACK
 extern	vmCvar_t		cg_redTeamName;
 extern	vmCvar_t		cg_blueTeamName;
@@ -1313,6 +1316,13 @@ void CG_ResetPlayerEntity( centity_t *cent );
 void CG_AddRefEntityWithPowerups( refEntity_t *ent, entityState_t *state, int team );
 void CG_NewClientInfo( int clientNum );
 sfxHandle_t	CG_CustomSound( int clientNum, const char *soundName );
+
+
+//
+// cg_overbounce.c
+//
+void CG_OverbounceCheck(void);
+
 
 //
 // cg_predict.c
