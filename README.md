@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # Overbounce visualizer mod
 
 A rough and ready tool for visualizing overbounces in Quake 3.
@@ -23,7 +25,7 @@ and unpack it into your game directory (ie. into the directory above your
 `baseq3` directory
 1. Launch Quake 3, and select `ob-hud` from the mods menu.
 1. Run `cg_overbounce_hud 1`, `pmove_fixed 1`, `pmove_msec 8` in the console,
-   and then join a map.
+   and then create a server, eg. `devmap q3dm13`.
 
 ## Known issues
 
