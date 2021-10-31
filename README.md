@@ -13,7 +13,7 @@ wanted to stick to modifying just the QVMs.
 Maybe there's a better way to do this while sticking to QVMs?  If so, please
 make a fork.  I don't plan on maintaining this code.
 
-For the original ioquake3 README [click here.](README.md)
+For the original ioquake3 README [click here.](README-original.md)
 
 ## Installation
 
